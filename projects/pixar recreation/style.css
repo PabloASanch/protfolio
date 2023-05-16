@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav > ul{
+    display: flex;
+
+}
+
+.logo{
+    padding-inline: 20px;
+}
+
+li{
+    list-style: none;
+    margin-left: 25px;
+    font-weight: 400;
+    
+   
+}
+
+.lightyear{
+    display: flex;
+
+}
+.lightyear-picture{
+    object-fit:fill;
+}
+
+.lightyear-logo{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+.more{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.picture{
+    width: 300px;
+    height: 200px;
+}
